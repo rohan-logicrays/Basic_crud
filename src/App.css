@@ -1,0 +1,110 @@
+.container    {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(229, 200, 255);
+  padding: 10px 0px;
+}
+form div{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+
+}
+form button{
+  margin: 5px 0; 
+}
+
+table{
+  width: 80%;
+  margin-top: 10px;
+
+  text-align: center;
+  overflow-x: auto
+  
+  
+  
+
+}
+td, th{
+  border: 1px solid rgb(195, 127, 255);
+  border-radius: 5px;
+  height: 40px;
+  
+}
+th{
+  background-color: rgb(229, 200, 255);
+}  
+ 
+button{
+  width: 60px;
+  padding: 2px;
+  border: 1px solid rgb(195, 127, 255);
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  height: 25px;
+}
+button:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(195, 127, 255);
+}
+
+.search{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  
+}
+.search input{
+  width: 50%;
+  height: 30px;
+  padding-left: 5px;
+}
+.cross{
+  width: 30px;
+  margin: 5px;
+  background-color: rgb(255, 73, 73);
+  height: 20px;
+}
+.cross:hover{
+  background-color: brown;
+}
+.icon-btn{
+  padding: 0;
+  margin: 1px;
+  height: 30px;
+}
+.error{
+  font-size: 15px;
+  color: red;
+  width: 150  px;
+  
+}
+
+.action{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.profile{
+  font-size: xx-large;
+  border: 2px solid  rgb(195, 127, 255);
+  /* width: 150px;  
+  
+  */
+  padding: 10px;
+  border-radius: 15px;
+
+}
